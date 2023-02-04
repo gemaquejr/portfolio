@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import SocialMedia from './socialMedia'
+import Gemaque from "../assets/gemaque.png"
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
               GEMAQUE
             </h2>
             <p className="text-gray-500 text-lg py-4 max-w-md md:text-2xl">DESENVOLVEDOR WEB FULLSTACK PYTHON 👨‍💻</p>
+            
             <div className="flex">
               <Link
                 to="projects"
@@ -36,6 +38,14 @@ const Home = () => {
                 <SocialMedia />
                 </div>
             </div>
+          </div>
+
+          <div>
+            <img
+              src={Gemaque}
+              alt="my profile"
+              className="h-72 md:h-96"
+            />
           </div>
         </div>
       </div>

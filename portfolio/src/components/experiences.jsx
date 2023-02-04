@@ -5,6 +5,7 @@ import javascript from "../assets/experiences/javascript.png";
 import react from "../assets/experiences/react.png";
 import github from "../assets/experiences/github.png";
 import tailwind from "../assets/experiences/tailwind.png";
+import node from "../assets/experiences/node.png";
 import git from "../assets/experiences/git.png";
 import vscode from "../assets/experiences/vscode.png";
 
@@ -42,18 +43,24 @@ const Experiences = () => {
     },
     {
       id: 6,
+      src: node,
+      title: "Node.js",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 7,
       src: git,
       title: "Git",
       style: "shadow-orange-600",
     },
     {
-      id: 7,
+      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 8,
+      id: 9,
       src: vscode,
       title: "VS Code",
       style: "shadow-blue-400",
