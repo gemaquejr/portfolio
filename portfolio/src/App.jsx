@@ -5,6 +5,7 @@ import Experiences from "./components/experiences"
 import SocialMedia from './components/socialMedia'
 import Contact from "./components/contact"
 import About from "./components/about"
+import NavBar from "./components/navBar"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SocialMedia />
       <Contact />
       <About />
+      <NavBar />
     </div>
   );
 }
