@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-scroll";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import SocialMedia from './socialMedia'
 
 const Home = () => {
   return (
@@ -16,6 +19,23 @@ const Home = () => {
               GEMAQUE
             </h2>
             <p className="text-gray-500 text-lg py-4 max-w-md md:text-2xl">DESENVOLVEDOR WEB FULLSTACK PYTHON 👨‍💻</p>
+            <div className="flex">
+              <Link
+                to="projects"
+                smooth
+                duration={500}
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
+              >
+                Projetos
+                <span className="group-hover:rotate-90 duration-300">
+                  <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                </span>
+              </Link>
+              <div className="py-4 px-8">
+                <SocialMedia />
+                </div>
+            </div>
           </div>
         </div>
       </div>
