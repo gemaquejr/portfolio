@@ -15,7 +15,7 @@ const Projects = () => {
       id: 2,
       name: "Solar System",
       src: solarSystem,
-      hrefCode: "https://github.com/Rahmathirshad/Face-Recognition-App",
+      hrefCode: "https://github.com/gemaquejr/Solar-System",
     },
   ];
 

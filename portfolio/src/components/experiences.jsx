@@ -77,7 +77,7 @@ const Experiences = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experiência
           </p>
-          <p className="py-6">Atualmente estou trabalhando como freelance e<br></br>disponível para desenvolvimento web</p>
+          <p className="py-6">Atualmente estou trabalhando como freelance e<br></br> estou disponível para serviços de desenvolvimento web</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

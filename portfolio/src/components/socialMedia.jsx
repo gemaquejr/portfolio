@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialMedia = () => {
   const links = [
@@ -27,10 +28,21 @@ const SocialMedia = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Email <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:gemaquejr@hotmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Curriculum <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "/Profile.pdf",
+      style: "rounded-br-md",
+      download: true,
     },
   ];
 
