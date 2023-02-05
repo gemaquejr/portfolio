@@ -23,7 +23,7 @@ const Home = () => {
             
             <div className="flex">
               <Link
-                to="projects"
+                to="Projetos"
                 smooth
                 duration={500}
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r

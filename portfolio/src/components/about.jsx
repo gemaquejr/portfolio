@@ -50,7 +50,7 @@ const About = () => {
           <br></br>
         </div>
         <br></br>
-        <Link to="contact" smooth duration={500} className=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Contato</Link>
+        <Link to="Contato" smooth duration={500} className=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Contato</Link>
       </div>
     </div>
   );
