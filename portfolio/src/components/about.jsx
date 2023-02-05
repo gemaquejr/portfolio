@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div
-      name="about"
+      name="Sobre"
       className="w-full bg-gradient-to-b from-gray-800 to-black text-white lg:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -20,7 +20,7 @@ const About = () => {
         <p className="text-x lg:text-xl">Um desenvolvedor web fullstack formado pela Trybe👨‍💻 atualmente morando em São Paulo, Brasil.
           <br></br>
           <br></br>
-          Sou apaixonado por tecnologia e desenvolver projetos para o usuário e estabelecer uma carreira na indústria de desenvolvimento web.
+          Sou apaixonado por tecnologia e as maravilhas que ela pode fazer para melhorar as nossas vidas.
           <br></br>
           Constantemente aprendendo e melhorando as habilidades de desenvolvimento web.
           <br></br>
@@ -45,7 +45,7 @@ const About = () => {
             Email: gemaquejr@hotmail.com
             <br></br>
             <br></br>
-            Celular\whatsapp: +55 11949523526
+            Celular\whatsapp: (11) 949523526
           </p>
           <br></br>
         </div>

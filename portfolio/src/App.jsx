@@ -10,13 +10,13 @@ import NavBar from "./components/navBar"
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Home />
+      <About />
       <Projects />
       <Experiences />
-      <SocialMedia />
       <Contact />
-      <About />
-      <NavBar />
+      <SocialMedia />
     </div>
   );
 }

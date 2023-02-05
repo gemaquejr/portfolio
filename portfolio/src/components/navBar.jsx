@@ -20,7 +20,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "Esperiência",
+      link: "Experiência",
     },
     {
       id: 5,
@@ -33,7 +33,7 @@ const NavBar = () => {
     drop-shadow-[0px_7px_5px_rgba(8,145,178,0.1)]">
       <div>
         <Link to="home" smooth duration={500}>
-          <h1 className="text-7xl text-slate-300 font-signature cursor-pointer hover:text-sky-400 hover:scale-110 duration-200">Início</h1>
+          <h1 className="text-5xl text-slate-300 font-signature cursor-pointer hover:text-sky-400 hover:scale-110 duration-200">Início</h1>
         </Link>
       </div>
 
