@@ -29,11 +29,11 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-stone-900/80 backdrop-blur fixed
+    <div className="flex justify-between items-center w-full h-12 px-10 text-white bg-stone-800/50 backdrop-blur fixed
     drop-shadow-[0px_7px_5px_rgba(8,145,178,0.1)]">
       <div>
         <Link to="Apresentação" smooth duration={500}>
-          <h1 className="text-5xl text-slate-300 font-signature cursor-pointer hover:text-sky-400 hover:scale-110 duration-200">Obrigado pela visita !</h1>
+          <h1 className="text-3xl text-slate-300 font-signature cursor-pointer hover:text-sky-400 hover:scale-110 duration-200">Obrigado pela visita !</h1>
         </Link>
       </div>
 
