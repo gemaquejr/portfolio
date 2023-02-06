@@ -22,7 +22,7 @@ const Experiences = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-400",
+      style: "shadow-orange-500",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const Experiences = () => {
       id: 3,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "shadow-sky-400",
+      style: "shadow-sky-500",
     },
     {
       id: 4,
@@ -46,25 +46,25 @@ const Experiences = () => {
       id: 5,
       src: typescript,
       title: "TypeScript",
-      style: "shadow-yellow-500",
+      style: "shadow-blue-500",
     },
     {
       id: 6,
       src: react,
       title: "React",
-      style: "shadow-sky-400",
+      style: "shadow-sky-500",
     },
     {
       id: 7,
       src: redux,
       title: "Redux",
-      style: "shadow-sky-400",
+      style: "shadow-purple-500",
     },
     {
       id: 8,
       src: node,
       title: "Node.js",
-      style: "shadow-green-400",
+      style: "shadow-emerald-500",
     },
     {
       id: 9,
@@ -76,50 +76,50 @@ const Experiences = () => {
       id: 10,
       src: mysql,
       title: "MYSQL",
-      style: "shadow-sky-400",
+      style: "shadow-sky-500",
     },
     {
       id: 11,
       src: mongodb,
       title: "MongoDB",
-      style: "shadow-green-600",
+      style: "shadow-green-500",
     },
     {
       id: 12,
       src: jest,
       title: "Jest",
-      style: "shadow-red-600",
+      style: "shadow-pink-500",
     },
     {
       id: 13,
       src: git,
       title: "Git",
-      style: "shadow-orange-600",
+      style: "shadow-orange-500",
     },
     {
       id: 14,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-500",
     },
     {
       id: 15,
       src: vscode,
       title: "VS Code",
-      style: "shadow-blue-400",
+      style: "shadow-sky-500",
     },
     {
       id: 16,
       src: trello,
       title: "Trello",
-      style: "shadow-blue-400",
+      style: "shadow-blue-500",
     },
   ];
 
   return (
     <div
       name="Experiência"
-      className="bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen text-white"
+      className="bg-gradient-to-b from-gray-800 to-black text-white w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

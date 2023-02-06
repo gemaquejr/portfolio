@@ -8,7 +8,7 @@ const Home = () => {
   return (
       <div
         name="Apresentação"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+        className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen"
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
           <div className="flex flex-col justify-center h-full">
@@ -19,7 +19,7 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl  text-white">
               GEMAQUE
             </h2>
-            <p className="text-gray-500 text-lg py-4 max-w-md md:text-2xl">DESENVOLVEDOR WEB FULLSTACK PYTHON 👨‍💻</p>
+            <p className="text-gray-500 text-lg text-center py-4 max-w-md md:text-2xl">DESENVOLVEDOR WEB FULLSTACK</p>
             
             <div className="flex">
               <Link
@@ -44,7 +44,7 @@ const Home = () => {
             <img
               src={Gemaque}
               alt="my profile"
-              className="h-72 md:h-96"
+              className="h-72 md:h-96 rounded-lg border-double border-4 border-gray-800/50"
             />
           </div>
         </div>

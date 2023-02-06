@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div
       name="Sobre"
-      className="bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen text-white"
+      className="bg-gradient-to-b from-gray-800 to-black text-white w-full h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen">
         <div className="lg:pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">
             Sobre
@@ -18,7 +18,7 @@ const About = () => {
           <span className=" font-bold">Olá,</span> me chamo <span className=" font-bold">Francisco Espíndola Gemaque Junior.</span>
         </p>
           <br></br>
-        <p className="text-x lg:text-xl">Um desenvolvedor web fullstack formado pela Trybe 👨‍💻, atualmente morando em São Paulo, Brasil.
+        <p className="text-x lg:text-xl">Um desenvolvedor web fullstack formado pela Trybe, atualmente morando em São Paulo, Brasil.
           <br></br>
           <br></br>
           Sou um apaixonado por tecnologia e por tudo o que ela pode fazer para melhorar as nossas vidas.
@@ -51,7 +51,8 @@ const About = () => {
           <br></br>
         </div>
         <br></br>
-        <Link to="Contato" smooth duration={500} className=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Contato</Link>
+        <Link to="Contato" smooth duration={500} className="bg-gradient-to-r
+                from-cyan-500 to-blue-500 w-fit px-10 py-3 rounded-md cursor-pointer">Contato</Link>
       </div>
     </div>
   );

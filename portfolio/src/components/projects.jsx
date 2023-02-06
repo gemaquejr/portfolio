@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       name="Projetos"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 text-white w-full md:h-screen"
     >
       <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full lg:p-24">
         <div className="pb-2">
@@ -41,7 +41,7 @@ const Projects = () => {
                 alt=""
                 className="rounded-t-md "
               />
-              <p className="bg-gray-900  font-semibold">{name}</p>
+              <p className="bg-gray-900 font-semibold">{name}</p>
               </div>
               <div className="flex items-center justify-center bg-zinc-900 rounded-b-md">
                 <button className="w-1/2 px-6 py-2 m-1 duration-200 hover:scale-110 text-sky-400">
