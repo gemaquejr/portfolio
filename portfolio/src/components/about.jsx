@@ -52,7 +52,8 @@ const About = () => {
         </div>
         <br></br>
         <Link to="Contato" smooth duration={500} className="bg-gradient-to-r
-                from-cyan-500 to-blue-500 w-fit px-10 py-3 rounded-md cursor-pointer">Contato</Link>
+                from-cyan-500 to-blue-500 w-fit px-10 py-3 rounded-md cursor-pointer">Contato
+                </Link>
       </div>
     </div>
   );
