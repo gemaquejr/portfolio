@@ -2,6 +2,7 @@ import React from "react";
 import nhl2021 from "../assets/projects/nhl2021.png";
 import solarSystem from "../assets/projects/sistemaSolar.png";
 import trivia from "../assets/projects/trivia.png";
+import frontendOnlineStore from "../assets/projects/frontend-online-store.png"
 
 const Projects = () => {
   const projectsList = [
@@ -25,6 +26,13 @@ const Projects = () => {
       src: trivia,
       hrefLive: "https://trivia-gemaquejr.netlify.app/",
       hrefCode: "https://github.com/gemaquejr/trivia-react-redux",
+    },
+    {
+      id: 4,
+      name: "Frontend Online Store",
+      src: frontendOnlineStore,
+      hrefLive: "https://frontend-online-store-gemaquejr.netlify.app/",
+      hrefCode: "https://github.com/gemaquejr/frontend-online-store",
     },
   ];
 
