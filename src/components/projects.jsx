@@ -1,6 +1,7 @@
 import React from "react";
 import nhl2021 from "../assets/projects/nhl2021.png";
 import solarSystem from "../assets/projects/sistemaSolar.png";
+import trivia from "../assets/projects/trivia.png";
 
 const Projects = () => {
   const projectsList = [
