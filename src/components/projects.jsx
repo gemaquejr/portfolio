@@ -15,6 +15,7 @@ const Projects = () => {
       id: 2,
       name: "Solar System",
       src: solarSystem,
+      hrefLive: "https://solar-system-gemaquejr.netlify.app/",
       hrefCode: "https://github.com/gemaquejr/Solar-System",
     },
   ];
