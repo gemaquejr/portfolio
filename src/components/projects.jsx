@@ -4,6 +4,8 @@ import solarSystem from "../assets/projects/sistemaSolar.png";
 import trivia from "../assets/projects/trivia.png";
 import frontendOnlineStore from "../assets/projects/frontend-online-store.png"
 import trybewarts from "../assets/projects/trybewarts.png"
+import shoppingCart from "../assets/projects/shopping-cart.png"
+
 
 const Projects = () => {
   const projectsList = [
