@@ -42,6 +42,13 @@ const Projects = () => {
       hrefLive: "https://trybewarts-gemaquejr.netlify.app/",
       hrefCode: "https://github.com/gemaquejr/trybewarts",
     },
+    {
+      id: 6,
+      name: "Shopping Cart",
+      src: shoppingCart,
+      hrefLive: "https://shopping-cart-gemaquejr.netlify.app/",
+      hrefCode: "https://github.com/gemaquejr/shopping-cart",
+    },
   ];
 
   return (
