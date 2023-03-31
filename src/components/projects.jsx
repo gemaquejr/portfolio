@@ -18,6 +18,13 @@ const Projects = () => {
       hrefLive: "https://solar-system-gemaquejr.netlify.app/",
       hrefCode: "https://github.com/gemaquejr/Solar-System",
     },
+    {
+      id: 3,
+      name: "Trivia",
+      src: trivia,
+      hrefLive: "https://trivia-gemaquejr.netlify.app/",
+      hrefCode: "https://github.com/gemaquejr/trivia-react-redux",
+    },
   ];
 
   return (
