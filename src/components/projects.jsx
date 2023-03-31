@@ -3,6 +3,7 @@ import nhl2021 from "../assets/projects/nhl2021.png";
 import solarSystem from "../assets/projects/sistemaSolar.png";
 import trivia from "../assets/projects/trivia.png";
 import frontendOnlineStore from "../assets/projects/frontend-online-store.png"
+import trybewarts from "../assets/projects/trybewarts.png"
 
 const Projects = () => {
   const projectsList = [
@@ -33,6 +34,13 @@ const Projects = () => {
       src: frontendOnlineStore,
       hrefLive: "https://frontend-online-store-gemaquejr.netlify.app/",
       hrefCode: "https://github.com/gemaquejr/frontend-online-store",
+    },
+    {
+      id: 5,
+      name: "Trybewarts",
+      src: trybewarts,
+      hrefLive: "https://trybewarts-gemaquejr.netlify.app/",
+      hrefCode: "https://github.com/gemaquejr/trybewarts",
     },
   ];
 
